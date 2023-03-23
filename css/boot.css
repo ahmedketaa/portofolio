@@ -1,0 +1,70 @@
+
+
+
+
+header{
+    background-image: url(../ge.avif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #080707;
+    min-height: 100vh;
+
+}
+header nav{
+    font-size: 18px;
+}
+header .logo{
+    color: #af9ab1;
+    font-size: 29px;
+}
+.caption{
+    transform: translate(10px,-30px);
+}
+.caption h1{
+    text-transform: uppercase;
+    color: white;
+    /* font-style: italic; */
+    transform: translateX(10px);
+    
+
+}
+.caption h2{
+color: lightgrey;
+transform: translateX(10px);
+}
+.caption a{
+    display: block;
+    margin-top: 30px;
+    font-size: 19px;
+    transform: translateX(16px);
+    text-decoration: none;
+    color: rgb(189, 71, 96);
+    width: fit-content;
+}
+.caption a:hover{
+    color: rgb(141, 68, 83) ;
+}
+.caption .social-icons i{
+    color: aliceblue;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    
+}
+.social-icons{
+    transform: translateX(20px);
+}
+.social-icons i:first-child:hover{
+    color: #1877f2;
+}
+.social-icons i:last-child:hover{
+    color: #0a66c2;
+}
+.social-icons i:last-child{
+    border-radius: 50%;
+}
+.social-icons i:nth-child(2):hover{
+    color: #fd1d1d;
+}
+
